@@ -20,5 +20,5 @@ targetを取得するとき、それらを識別するために自動で label�
 収集したデータにすでにそのラベルが入っていた場合、 `honor_labels` の設定に従って動作する。  
 他にもデフォルトで保存する時系列データがあるもよう。
 
-- `up{job="<job-name>", instance="<instance-id>"}` : instanceが生きていると判断できたら (アクセスできるとか) `1` になり、そうでなければ `9` になる
+- `up{job="<job-name>", instance="<instance-id>"}` : instanceが生きていると判断できたら (アクセスできるとか) `1` になり、そうでなければ `0` になる
 - etc.
